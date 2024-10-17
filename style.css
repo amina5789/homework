@@ -1,0 +1,148 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --neutral-d-grey: #4D4D4D;
+    --brand-primary: #4CAF4F;
+    --neutral-silver: #F5F7FA;
+    --brand-primary: #4D4D4D;
+    --brand-primary: #4CAF4F;
+}
+
+
+/* header {
+    padding: 11px 100px;
+    height: 58px;
+    background-color: red;
+}
+
+.logotib {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 12px;
+    position: relative;
+    top: -5px;
+    right: 650px;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+ul li {
+    list-style-type: none;
+    display: inline;
+    width: 307px;
+    height: 17px;
+}
+
+li {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 150%;
+    text-align: center;
+    color: var(--neutral-d-grey);
+    display: flex;
+    gap: 20px;
+} */
+
+
+/* ы */
+
+button {
+    border-radius: 3px;
+    padding: 9px 22px;
+    width: 133px;
+    height: 36px;
+    background: var(--brand-primary);
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 150%;
+    text-align: center;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#btn::after {
+    content: "-->";
+}
+
+nav {
+    display: fle;
+}
+
+main {
+    padding: 66px 100px;
+    height: 416px;
+    background: var(--neutral-silver);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 72px;
+}
+
+.left {
+    width: 457px;
+    height: 192px;
+}
+
+h2 {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 119%;
+    color: var(--neutral-d-grey);
+}
+
+#color {
+    color: var(--brand-primary);
+}
+
+p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 150%;
+    color: var(--neutral-grey);
+    padding-top: 12px;
+}
+
+#register {
+    margin-top: 22px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 50px;
+    gap: 22px;
+    cursor: pointer;
+}
+
+header {
+    padding: 11px 100px;
+    height: 58px;
+    box-shadow: 0 3px 6px 0 rgba(171, 190, 209, 0.4);
+    background: white;
+}
+
+.logo {
+    padding-top: 10px;
+    cursor: pointer;
+}
+
+li,
+#btn {
+    position: relative;
+    top: -30px;
+    cursor: pointer;
+}
